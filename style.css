@@ -1,0 +1,170 @@
+body, html, *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: none;
+}
+
+.navbar{
+  height: 100px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  z-index: 12;
+  position: fixed;
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+nav{
+  flex: 1;
+  text-align: right;
+}
+
+nav ul{
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li{
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+
+.wrapper{
+  width: 1170px;
+  margin: 0 auto;
+}
+
+
+.banner{
+  height: 480px;
+  width: 100%;
+  top: 100px;
+  position: fixed;
+  background: url('images/banner1.jpg');
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
+
+
+}
+
+.banner h1{
+  padding-top: 8%;
+  font-size: 70px;
+  font-family: poppins;
+  text-transform: uppercase;
+  padding: 50px;
+  text-align: center;
+  margin-top: 200px;
+  color: white;
+
+}
+.content-area{
+  width: 100%;
+  position: relative;
+  top: 480px;
+  background: #ddd;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+
+
+}
+
+
+.parallax{
+  background: url('images/img1.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+}
+
+.column{
+   width: 600px;
+   padding: 10
+
+}
+
+
+
+
+#slider{
+  width: 350px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+
+}
+
+#featured{
+  max-width: 500px;
+  max-height: 600px;
+  object-fit: cover;
+  cursor: pointer;
+  border: 2px solid black;
+}
+
+#featuted img{
+ 	max-width: 500px;
+  max-height: 600px;
+}
+
+.thumbnail{
+  object-fit: cover;
+  max-width: 180px;
+  max-height: 100px;
+  cursor: pointer;
+  opacity: 0.5;
+  margin: 5px;
+  border: 2px solid black;
+}
+
+.thumbnail:hover{
+  opacity: 1;
+}
+
+.active{
+  opacity: 1;
+}
+
+.slide-wrapper{
+  max-width: 500px;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.slider{
+  width: 440px;
+  display: flex;
+  flex-wrap: norow;
+  overflow-x: hidden;
+  transition: left 2s;
+  position: relative;
+  -webkit-transition: left 2s;
+  -moz-transition: left 2s;
+  -o-transition: left 2s;
+}
+
+.kit-area{
+  width: 100%;
+  position: relative;
+  top: 100px;
+  background: #ddd;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
